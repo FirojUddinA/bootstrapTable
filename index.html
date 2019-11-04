@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design Bootstrap</title>
+  <!-- Font Awesome -->
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <!--<link href="css/mdb.min.css" rel="stylesheet">-->
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<style>
+  h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+  }
+  p{
+    padding: 0;
+    margin: 0;
+  }
+  
+  tbody td a{
+    text-decoration: underline;
+  }
+  td.table-row-heading{
+    background: #ffffff;
+  }
+  .table-row-heading{
+    width: 400px;
+  }
+  .bg-1{
+    background: #FFD204;
+  }.bg-2{
+    background: #B897C6;
+  }.bg-3{
+    background: #D5D7D8;
+  }.bg-4{
+    background: #76AD9A; 
+  }.bg-5{
+    background: #4EBAAA;
+  }
+   .or-influenza{
+     border-top:5px dotted #000 ;
+   }
+  .or{
+    background-color: #0054A6;
+    height: 25px;
+    width: 25px;
+    padding: 5px;
+    border-radius: 50%;
+    line-height: 12px;
+  }
+  i.sine{
+    font-size: 12px;
+  }
+  .fa-info-circle{
+    color: #939598;
+  }
+</style>
+
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <h2>Birth to 15 Month</h2>
+    </div>
+    <div class="col-12">
+      <table class="table table-bordered">
+        <thead class="bg-5">
+        <tr>
+          <th class="table-row-heading">Vaccine</th>
+          <th>Birth</th>
+          <th>1 mo</th>
+          <th>2 mos</th>
+          <th>4 mos</th>
+          <th>6 mos</th>
+          <th>9 mos</th>
+          <th>12 mos</th>
+          <th>15 mos</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="table-row-heading">
+            <a href="#">Hepatits B</a>
+            <i class="fas fa-info-circle"></i>
+            <p>HepB</p>
+
+          </td>
+          <td class="bg-1" >
+            <p>1<sup>st</sup>does</p>
+          </td>
+          <td class="bg-1" colspan="2">
+            <p>2<sup>nd</sup>does</p>
+          </td>
+          <td  class="bg-4"></td>
+          <td colspan="4" class="text-center bg-1">
+            <p><i class="fas fa-arrow-left"></i> 3<sup>rd</sup>does <i class="fas fa-arrow-right"></i></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="table-row-heading">
+            <a href="#">Rotavirus</a>
+            <i class="fas fa-info-circle"></i>
+            <p>(RV) RV1 (2-dose series);RV5 (3-does series)</p>
+
+          </td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+          <td class="bg-1" >
+            <p>1<sup>st</sup>does</p>
+          </td>
+          <td class="bg-1" >
+            <p>2<sup>nd</sup>does</p>
+          </td><td class="bg-1" >
+            <p>See <a href="#">notes</a></p>
+          </td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+        </tr>
+        <tr>
+          <td class="table-row-heading">
+            <a href="#">Diphtheria tetanus & acellular pertussis</a>
+            <i class="fas fa-info-circle"></i>
+            <p>(DTaP: <7 yrs)</p>
+
+          </td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+          <td class="bg-1" >
+            <p>1<sup>st</sup>does</p>
+          </td>
+          <td class="bg-1" >
+            <p>2<sup>nd</sup>does</p>
+          </td><td class="bg-1" >
+          <p>3<sup>rd</sup>does</p>
+          </td>
+          <td class="bg-4" colspan="2"></td>
+
+          <td colspan="4" class="text-center bg-1">
+            <p><i class="fas fa-arrow-left"></i> 3<sup>rd</sup>does <i class="fas fa-arrow-right"></i></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="table-row-heading">
+            <a href="#">Haemophilus influenzae type b</a>
+            <i class="fas fa-info-circle"></i>
+            <p>(H1b)</p>
+
+          </td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+          <td class="bg-1" >
+            <p>1<sup>st</sup>does</p>
+          </td>
+          <td class="bg-1" >
+            <p>2<sup>nd</sup>does</p>
+          </td><td class="bg-1" >
+          <p>See <a href="#">notes</a></p>
+          </td>
+          <td class="bg-4" colspan=""></td>
+
+          <td colspan="3" class="text-center bg-1">
+            <p><i class="fas fa-arrow-left"></i> 3<sup>rd</sup> or 4<sup>th</sup>does <i class="fas fa-arrow-right"></i></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="table-row-heading">
+            <a href="#">Pneumococcal conjugate</a>
+            <i class="fas fa-info-circle"></i>
+            <p>(PCV13)</p>
+
+          </td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+          <td class="bg-1" >
+            <p>1<sup>st</sup>does</p>
+          </td>
+          <td class="bg-1" >
+            <p>2<sup>nd</sup>does</p>
+          </td><td class="bg-1" >
+          <p>3<sup>rd</sup>does</p>
+          </td>
+          <td class="bg-4" colspan=""></td>
+
+          <td colspan="3" class="text-center bg-1">
+            <p><i class="fas fa-arrow-left"></i>  4<sup>th</sup>does <i class="fas fa-arrow-right"></i></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="table-row-heading">
+            <a href="#">Inactivated poliovirus</a>
+            <i class="fas fa-info-circle"></i>
+            <p>(IPV: <113 yrs)</p>
+
+          </td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+          <td class="bg-1" >
+            <p>1<sup>st</sup>does</p>
+          </td>
+          <td class="bg-1" >
+            <p>2<sup>nd</sup>does</p>
+          </td>
+          <td class="bg-1 text-center" colspan="4">
+
+            <p><i class="fas fa-arrow-left"></i>  3<sup>rd</sup>does<i class="fas fa-arrow-right"></i></p>
+          </td>
+
+        </tr>
+        <tr>
+          <td class="table-row-heading">
+           <p><a href="#">Influenza</a> (IIV) <i class="fas fa-info-circle"></i></p>
+
+          </td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+
+          <td class="bg-1 text-center" colspan="4">
+
+            <p>Annual vaccination 1 or 2 doses</p>
+          </td>
+
+        </tr>
+        <tr class="or-influenza">
+          <td class="table-row-heading">
+            <p class="or"><span >or</span></p>
+           <p><a href="#">Influenza</a> (LAIV) <i class="fas fa-info-circle"></i></p>
+          </td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+
+
+
+        </tr>
+
+        <tr>
+          <td class="table-row-heading">
+            <a href="#">Measles, mumps, rubella </a>
+            <i class="fas fa-info-circle"></i>
+            <p>(MMFt)</p>
+
+          </td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+          <td class="bg-3" ></td>
+          <td class="bg-3" ></td>
+          <td class="bg-2" colspan="2">
+            <p>See<a href="#">note</a></p>
+          </td>
+          <td class="bg-1 text-center" colspan="2">
+
+            <p><i class="fas fa-arrow-left"></i>  1<sup>st</sup>does<i class="fas fa-arrow-right"></i></p>
+          </td>
+
+        </tr>
+        <tr>
+          <td class="table-row-heading">
+            <a href="#">Varicella</a>
+            <i class="fas fa-info-circle"></i>
+            <p>(VAR)</p>
+
+          </td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+          <td class="bg-3" ></td>
+          <td class="bg-3" ></td>
+          <td class="bg-3" ></td>
+          <td class="bg-3" ></td>
+
+          <td class="bg-1 text-center" colspan="2">
+
+            <p><i class="fas fa-arrow-left"></i>  1<sup>st</sup>does<i class="fas fa-arrow-right"></i></p>
+          </td>
+
+        </tr>
+        <tr>
+          <td class="table-row-heading">
+            <a href="#">Hepatitis A</a>
+            <i class="fas fa-info-circle"></i>
+            <p>(HepA)</p>
+
+          </td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+          <td class="bg-3" ></td>
+          <td class="bg-3" ></td>
+          <td class="bg-2 text-center" colspan="2">
+            <p>See<a href="#">note</a></p>
+          </td>
+          <td class="bg-1 text-center" colspan="2">
+
+              <p><i class="fas fa-arrow-left"></i> 2 does series, See <a href="#">notes</a><i class="fas fa-arrow-right"></i></p>
+          </td>
+
+        </tr>
+        <tr>
+          <td class="table-row-heading">
+            <a href="#">Meningococcal</a>
+            <i class=" fas fa-info-circle"></i>
+            <p>(MenACWY-D:
+              <i class="sine fas fa-greater-than-equal"></i>9 mos;
+              MenACWY-CRM:
+              <i class="sine fas fa-greater-than-equal"></i>2 mos)</p>
+
+          </td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+          <td class="bg-2 text-center" colspan="6">
+            <p>See<a href="#">note</a></p>
+          </td>
+
+
+        </tr>
+
+        <tr>
+          <td class="table-row-heading">
+            <a href="#">Tetanus, diphtheria & acellular pertussis</a>
+            <i class="fas fa-info-circle"></i>
+            <p>(Tdap: <i class="sine fas fa-greater-than-equal"></i>7 yrs)</p>
+
+          </td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+        </tr>
+<tr>
+          <td class="table-row-heading">
+            <a href="#">Human papillomavirus</a>
+            <i class="fas fa-info-circle"></i>
+            <p>(HPV)</p>
+
+          </td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+        </tr>
+<tr>
+          <td class="table-row-heading">
+            <a href="#">Meningococcal B</a>
+            <i class="fas fa-info-circle"></i>
+            <p>(MenB)</p>
+
+          </td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+        </tr>
+<tr>
+          <td class="table-row-heading">
+            <a href="#">Pneumococcal polysaccharide</a>
+            <i class="fas fa-info-circle"></i>
+            <p>(PPSV23)</p>
+
+          </td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+          <td class="bg-3"></td>
+        </tr>
+
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+  <!-- Start your project here-->
+
+
+
+  <!-- Start your project here-->
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+</body>
+
+</html>
+
+
